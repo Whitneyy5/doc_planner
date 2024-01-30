@@ -1,0 +1,54 @@
+*{ /*this means all, we want the header to touch the top */
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 2vh;
+}
+header img{
+    width: 20%;
+}
+nav a{
+    color: #b4b4b4;
+    text-decoration: none;
+}
+nav a:hover{
+    color: #57b39a;
+}
+.selected{
+    color: #57b39a;
+}
+#sec1{
+    margin-top: 15vh;
+    margin-bottom: 20vh;
+    text-align: center;
+}
+#sec1 img{
+    width: 5%;
+    margin-bottom: 3vh;
+}
+#sec1 h1{
+    color: #57b39a;
+    margin-bottom: 2vh;
+}
+#sec1p{
+    display: flex;
+    justify-content: center;
+}
+#sec1p p{
+    width: 30%;
+    text-align: left;
+
+}
+#sec2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sec2-big-box{
+    border: 1px solid black;
+    width: 20% ;
+}
